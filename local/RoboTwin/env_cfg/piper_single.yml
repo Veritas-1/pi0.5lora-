@@ -1,0 +1,4 @@
+config:
+  robot: piper
+observation:
+  collect_freq: 25

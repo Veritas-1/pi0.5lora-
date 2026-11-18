@@ -14,8 +14,7 @@
 
 | Demo | Description | Success | Demo | Description | Success |
 |:---:|:---|:---:|:---:|:---|:---:|
-| [![Success 1](GIF_SUCCESS_1_URL)](https://github.com/user-attachments/assets/3bb0e602-279a-4649-b31e-0c9269b26b7a
-) | Successful red-on-green stacking | True | [![Success 2](GIF_SUCCESS_2_URL)](https://github.com/user-attachments/assets/25357222-19a9-4888-bb79-ba36ac393458) | Successful red-on-green stacking | True |
+| [![Success 1](GIF_SUCCESS_1_URL)](https://github.com/user-attachments/assets/3bb0e602-279a-4649-b31e-0c9269b26b7a) | Successful red-on-green stacking | True | [![Success 2](GIF_SUCCESS_2_URL)](https://github.com/user-attachments/assets/25357222-19a9-4888-bb79-ba36ac393458) | Successful red-on-green stacking | True |
 
 ### ❌ Failure Cases
 

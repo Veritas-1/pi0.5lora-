@@ -20,13 +20,13 @@
 
 | Demo | Description | Success | Demo | Description | Success |
 |:---:|:---|:---:|:---:|:---|:---:|
-| [![Failure 1](GIF_FAILURE_1_URL)](https://github.com/user-attachments/assets/daff4f67-0c4e-4b30-a7dd-dc2d0c8dc9e5) | 未能将红色方块置于绿色方块之上，之后寻找不到红色方块| False | [![Failure 2](GIF_FAILURE_2_URL)](https://github.com/user-attachments/assets/bd7921a5-8bec-4a58-9257-96dc227b179a) | 未能寻找到红色方块| False |
+| [![Failure 1](GIF_FAILURE_1_URL)](https://github.com/user-attachments/assets/daff4f67-0c4e-4b30-a7dd-dc2d0c8dc9e5) |先夹了蓝色方块，再将红色置于蓝色之上 ，未判定成功，之后也不知道干嘛（任务语义理解呢？）| False | [![Failure 2](GIF_FAILURE_2_URL)](https://github.com/user-attachments/assets/bd7921a5-8bec-4a58-9257-96dc227b179a) | 绿色放置成功，之后夹红色方块，未夹住，之后也没有张开夹臂 | False |
 
 ### Failure Case 3
 
 | Demo | Description | Success |
 |:---:|:---|:---:|
-| [![Failure 3](GIF_FAILURE_3_URL)](https://github.com/user-attachments/assets/d979b49f-1261-405f-b8d2-354eeba783ee) | 触碰到绿色方块之后下一步推理始终不变（日志：[PIPER7] step=500 target=[-0.1037  1.9095 -1.2354  0.0267  0.7709 -0.1186] gripper=0.647[PIPER7] step=600 target=[-0.0835  1.895  -1.1746  0.0236  0.7361 -0.099 ] gripper=0.606 | False |
+| [![Failure 3](GIF_FAILURE_3_URL)](https://github.com/user-attachments/assets/d979b49f-1261-405f-b8d2-354eeba783ee) | 准备夹绿色，不知为何，又偏移了 | False |
 
 ---
 
